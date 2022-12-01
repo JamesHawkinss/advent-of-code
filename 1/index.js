@@ -19,7 +19,7 @@ file.on('line', (line) => {
 });
 
 file.on('close', () => {
-    //console.log(arr.reduce((p, c) => p > c ? p : c, 0));x`
+    //console.log(arr.reduce((p, c) => p > c ? p : c, 0))
 
     const stored = arr.sort((a, b) => b - a);
     console.log(stored[0] + stored[1] + stored[2])
